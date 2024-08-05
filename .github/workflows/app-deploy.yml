@@ -5,7 +5,7 @@ on: push
 jobs: 
 
   LogInToAWS:
-    runs-on: ubuntu-lattest 
+    runs-on: ubuntu-latest 
 
     steps:
     - name: Configure credentials 
