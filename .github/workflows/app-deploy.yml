@@ -17,6 +17,7 @@ jobs:
 
   buildImage-and-Publish-To-ECR:
     runs-on: ubuntu-latest 
+    needs: LogInToAWS
 
     steps:
     - name: Checkout 
